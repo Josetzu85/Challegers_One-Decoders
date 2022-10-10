@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <title>Encriptador Alura ONE - CH1</title>
+</head>
+<body>
+    <header class="encabezado">
+            <img class="encabezado-logo" src="imagenes/logo.png" alt="Imagen de Alura">
+            <h1 class="encabezado-titulo">Encriptador de Textos</h1>  
+    </header>
+    <hr>
+    <main>
+        <section class="section1">
+            <label class="section1-t">Texto original</label>
+            <textarea type="text" class="section1-mensaje" placeholder="Ingrese su mensaje" style="text-transform: lowercase;" pattern="[a-zA-Z]+"></textarea>
+            <div class="containerBtn1">
+                <button class="containerBtn1-btnEncriptar">Encriptar</button>
+                <button class="containerBtn1-btnDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="section2">
+            <label class="section1-r">Texto encriptado</label> 
+            <textarea type="text" class="section2-resultado" placeholder="mensaje encriptado"></textarea>
+            <div class="containerBtn2">
+                <button class="containerBtn2-btnCopy">Copiar</button>
+                <button class="containerBtn2-btnEscuchar">Escuchar</button> 
+            </div>
+        </section>
+    </main>
+    <hr>
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy ENCRIPTADOR 2022. / Autor: José Urrutia. Agradecimientos: Alura, Oracle ONE</p>
+    </footer>
+</body>
+</html>
+
+<!--
+<div class="contenedor-munheco">
+    <img src="imagenes/munheco.png" alt="muñeco de alura">
+</div>
+<div class="contenedor-h3">
+    <h3>Ningún mensaje fue encontrado</h3>
+</div>
+<div class="contenedor-parrafo">
+    <p>Ingresa un texto que desees encriptar o desencriptar</p>
+</div> -->
